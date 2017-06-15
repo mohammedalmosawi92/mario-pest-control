@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Super Mario Pest Control</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="Super-Mario-Paper-Mario.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="header">Mario Pest Control</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-4 col-xs-12 text-center">
+                    <div class="enemies Goombas">
+                        <p>
+                            <img src="Goombas.png">
+                        </p>
+                        <p class="enemy-name">
+                            Goom-bas
+                        </p>
+                        <p>
+                            <input type="text" id="goombasNumber" class="caught-input"  placeholder="Caught">
+                        </p>
+                        <p>
+                            <input type="text" id="goombasTotal" class="caught-input" placeholder="Price" readonly>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-12 col-md-offset-1 bob-pos">
+                    <div class="enemies Bob-ombs">
+                        <p>
+                            <img src="Bob-ombs.png">
+                        </p>
+                        <p class="enemy-name">
+                            Bob-ombs
+                        </p>
+                        <p>
+                            <input type="text" id="bobombsNumber" class="caught-input" placeholder="Caught">
+                        </p>
+                        <p>
+                            <input type="text" id="bobombsTotal" class="caught-input" placeholder="Price" readonly>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-12 col-md-offset-2 text-center">
+                    <div class="enemies Cheep-cheeps">
+                        <p>
+                            <img src="Cheep-cheeps.png">
+                        </p>
+                        <p class="enemy-name">
+                            Chep-che
+                        </p>
+                        <p>
+                            <input type="text" id="cheepcheepsNumber" class="caught-input" placeholder="Caught">
+                        </p>
+                        <p>
+                            <input type="text" id="cheepcheepsTotal" class="caught-input" placeholder="Price" readonly>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row total-row">
+                <div class="col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-12">
+                    <section class="total-section">
+                        <div class="total-sum">
+                            <p class="total-price">
+                                <img src="coin.png"> <span>Total Price</span> <img src="coin.png" >
+                            </p>
+                            <p>
+                                <input type="text" id="totalSum" class="caught-input" placeholder="Total Coins" readonly>
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="row footer text-center">
+                <div class="col-md-3 col-xs-12">
+                        <span>supermariobros@gmail.com</span>
+                </div>
+                <div class="col-md-3 col-md-offset-2 col-xs-12">
+                        <span>https://mario.nintendo.com/</span>
+                </div>
+                <div class="col-md-3 col-md-offset-1 col-xs-12">
+                        <span>Kyoto, Kyoto Prefecture, Japan</span>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+                integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+                crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
